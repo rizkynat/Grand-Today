@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Login</title>
+        <!-- the form awesome library is used to add icons to our form -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <!-- include the stylesheet file -->
+        <link href="/style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+            <div class="row my-5">
+                <div class="col">
+                    <section class="vh-100">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-sm-6 text-black">
+                      
+                              <div class="px-5 ms-xl-4 mt-5">
+                                <span class="h1 fw-bold mb-0"><img src="/views/assets/production/images/GreenToday.png"></span>
+                              </div>
+                      
+                              <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+                      
+                                <form action="/auth" method="post" style="width: 23rem;">
+                      
+                                  <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Masuk</h3>
+                      
+                                  <div class="form-outline mb-4">
+                                    <input type="email" name="email_retailer" id="form2Example18" class="form-control form-control-lg" />
+                                    <label class="form-label" for="form2Example18">Email address</label>
+                                  </div>
+                      
+                                  <div class="form-outline mb-4">
+                                    <input type="password" name="password" id="form2Example28" class="form-control form-control-lg" />
+                                    <label class="form-label" for="form2Example28">Password</label>
+                                  </div>
+                      
+                                  <div class="pt-1 mb-4">
+                                    <button class="btn btn-info btn-lg btn-block" type="submit">Masuk</button>
+                                  </div>
+                      
+                                  <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Lupa Katasandi?</a></p>
+                                  <p>Tidak punya akun? <a href="#!" class="link-info">Daftar disini</a></p>
+                      
+                                </form>
+                      
+                              </div>
+                      
+                            </div>
+                            <div class="col-sm-6 px-0 d-none d-sm-block">
+                              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
+                                alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	</body>
+</html>
